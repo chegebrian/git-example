@@ -14,11 +14,17 @@ h1 {
 
 .container {
     background-color: darkgrey;
+    height: 60px;
+    width: 100%;
 }
 
-/* nav ul {
+nav ul {
+    list-style-type: none;
     display: flex;
-    background-color: darkgrey;
-    height: 100px;
-    width: 100%;
-}  */
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    padding: 0 12px 0 12px;
+}
