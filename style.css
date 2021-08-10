@@ -28,3 +28,17 @@ nav ul li {
     line-height: 60px;
     padding: 0 12px 0 12px;
 }
+
+nav ul li:hover {
+    background-color: seagreen;
+    border-radius: 12px;
+    transition-property: all;
+    transition-delay: 0.3s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: seashell;
+}
