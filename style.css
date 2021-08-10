@@ -8,12 +8,9 @@ h1 {
 
 .container {
     background-color: darkgrey;
-    height: 60px;
-    width: 100%;
 }
 
-nav ul {
-    list-style-type: none;
+/* nav ul {
     display: flex;
 }
 
